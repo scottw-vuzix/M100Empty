@@ -21,7 +21,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.vuzix.m100empty.MainActivity"
+            android:name=".MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -30,16 +30,20 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.vuzix.m100empty.ButtonPressActivity"
+            android:name=".ButtonPressActivity"
             android:label="@string/title_activity_button_press" >
         </activity>
         <activity
-            android:name="com.vuzix.m100empty.CameraActivity"
+            android:name=".CameraActivity"
             android:label="@string/title_activity_camera" >
         </activity>
         <activity
-            android:name="com.vuzix.m100empty.SensorActivity"
+            android:name=".SensorActivity"
             android:label="@string/title_activity_sensor" >
+        </activity>
+        <activity
+            android:name=".VoiceActivity"
+            android:label="@string/title_activity_voice" >
         </activity>
     </application>
 
