@@ -16,6 +16,7 @@
     <string name="voice_butt">Voice</string>
     <string name="go_home">Home</string>
     <string name="sensor_butt">Sensors</string>
+    
 
     <!-- created strings for button press activity -->
     <string name="how_button_dev">Button Press Sample</string>

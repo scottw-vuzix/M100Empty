@@ -45,4 +45,14 @@
         android:onClick="goKeyPress"
         android:text="@string/key_press_butt" />
 
+    <Button
+        android:id="@+id/voice_butt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/camera_butt"
+        android:layout_alignRight="@+id/key_press_butt"
+        android:layout_marginRight="22dp"
+        android:onClick="goVoice" 
+        android:text="@string/voice_butt" />
+
 </RelativeLayout>

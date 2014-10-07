@@ -71,6 +71,11 @@ public class MainActivity extends Activity {
     	startActivity(goSensorIntent);
 		
 	}
+	public void goVoice(View view){
+		Intent iHearVoices = new Intent(ctx,VoiceActivity.class);
+    	startActivity(iHearVoices);
+		
+	}
 
 }
 
