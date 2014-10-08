@@ -71,12 +71,43 @@ public class VoiceActivity extends Activity {
 }
 
 
-/*	Basic Grammar Words. 
+/* Basic Grammar Words. 
  * 
- *  move left/right/up/down 	next 	previous 	forward 	halt 	select <#> 	complete 	launch <#>
-	go back/home/left/right/up/down 	cancel 	stop 	exit 	<show> menu 	volume up/down 	mute 	confirm
- 	scroll left/right/up/down 	call 	dial 	hang up 	answer 	ignore 	end 	redial
-	call back 	contacts 	favorites 	pair 	unpair 	sleep 	shut down 	<#>
-	set clock/time 	cut 	copy 	paste 	delete 	voice on/off 	show help 
+ *  move left/right/up/down 			next 		previous 	forward 	halt 			select <#> 	
+	go back/home/left/right/up/down 	cancel 		stop 		exit 		<show> menu 	volume up/down 
+ 	scroll left/right/up/down 			call 		dial 		hang up 	answer 			ignore 			
+	call back 							contacts 	favorites 	pair 		unpair 			sleep 			
+	set clock/time 						cut 		copy 		paste 		delete 			voice on/off 	
+	complete							launch <#>	mute		confirm		end				redial			
+	shut down							<#>			show help
  * 
 */
+
+/* com.vuzix.speech.Constants.GRAMMAR_MEDIA
+ * 
+ *	play						stop				pause		fast forward			rewind			
+	scan forward/back			step forward/back	record		next track/song/video	slow
+	previous track/song/video	audio				subtitle	seek forward/back
+*/
+
+/* com.vuzix.speech.Constants.GRAMMAR_CAMERA
+ * 
+ *	focus	zoom in/out		take picture/video		start recording		stop recording
+ */
+
+/* com.vuzix.speech.Constants.NAVIGATION
+ * 
+ *	left				right				up		down	north		south			east
+	west				turn left/right		drive	walk	map			satellite		street
+	points of interest	address				city	state	zip code	post code		street view
+
+ */
+
+/* com.vuzix.speech.Constants.GRAMMAR_MEDICAL
+ * 
+ *	allergy		anatomy			arm			back		body			bone
+	chest		chemist			disease		doctor		finger			foot
+	hand		insurance		leg			medicine	muscle			nurse
+	patient		pharmacist		pharmacy	physician	prescription	sick
+	sickness	sprain			surgeon		surgery		toe
+ */
